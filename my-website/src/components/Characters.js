@@ -13,7 +13,20 @@ export default function Characters() {
             Characters
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+    
+        <div>
+          {projects.map((project) => (
+            <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
+              
+            </a>
+          ))}
+        </div>
+
+        {/* This is the old code to display projects. Consisted of hoverable images that reveal a title and description */}
+        {/* We're gonna use and modify this section to display characters now instead of projects */}
+        {/* It gets the data from data.js */}
+
+        {/* <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
@@ -37,7 +50,7 @@ export default function Characters() {
               </div>
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
