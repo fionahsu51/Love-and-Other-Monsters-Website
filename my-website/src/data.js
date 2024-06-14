@@ -1,36 +1,47 @@
 export const projects = [
   {
-    title: "Love & Other Monsters",
-    subtitle: "C# • Unity • Ink",
-    description:
-      "A sapphic visual novel & dating sim game, drawing on themes of Gothic, Horror, Victorian and Fantasy.",
-    image: "./project-1.gif",
-    link: "https://malacursed.itch.io/love-other-monsters",
+    name: "Dolores",
+    sprite: "./DoloresNeutral.png",
+    pronouns: "She/Her",
+    likes: "Candles, Flowers",
+    dislikes: "Bread",
+    painters_note: "Oooh how about this pose? No, this! Wait...I think this is better! Aghhh I can't choose! Do I really have to keep it to one pose?"
   },
+
   {
-    title: "Otter Underwotter",
-    subtitle: "C# • Unity",
-    description:
-      "A parallax scrolling shooter game where you need to save your significant otter!",
-    image: "./project-2.gif",
-    link: "https://malacursed.itch.io/otter-underwotter",
+    name: "Aveline",
+    sprite: "./AvelineNeutral.png",
+    pronouns: "TBD",
+    likes: "Potions",
+    dislikes: "Monster Hunters",
+    painters_note: "Oooh how about this pose? No, this! Wait...I think this is better!"
   },
-  {
-    title: "Turnip - Birth of a Made Man",
-    subtitle: "JavaScript • Phaser 3",
-    description:
-      "A stealthy game where Turnip the rabbit must evade the advanced AI farmer!",
-    image: "./project-3.gif",
-    link: "https://theagamez.itch.io/turnip-birth-of-a-made-man",
-  },
-  {
-    title: "Portfolio",
-    subtitle: "React • Tailwind CSS",
-    description:
-      "The portfolio website you're currently viewing!",
-    image: "./project-3.gif",
-    link: "#App",
-  },
+
+  // Below is the old data for projects. Leaving it here for reference for now.
+  // {
+  //   title: "Otter Underwotter",
+  //   subtitle: "C# • Unity",
+  //   description:
+  //     "A parallax scrolling shooter game where you need to save your significant otter!",
+  //   image: "./project-2.gif",
+  //   link: "https://malacursed.itch.io/otter-underwotter",
+  // },
+  // {
+  //   title: "Turnip - Birth of a Made Man",
+  //   subtitle: "JavaScript • Phaser 3",
+  //   description:
+  //     "A stealthy game where Turnip the rabbit must evade the advanced AI farmer!",
+  //   image: "./project-3.gif",
+  //   link: "https://theagamez.itch.io/turnip-birth-of-a-made-man",
+  // },
+  // {
+  //   title: "Portfolio",
+  //   subtitle: "React • Tailwind CSS",
+  //   description:
+  //     "The portfolio website you're currently viewing!",
+  //   image: "./project-3.gif",
+  //   link: "#App",
+  // },
 ];
 
 export const testimonials = [

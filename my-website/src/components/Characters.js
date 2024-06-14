@@ -16,15 +16,21 @@ export default function Characters() {
     
         <div>
           {projects.map((project) => (
-            <a href={project.link} key={project.image} className="sm:w-1/2 w-100 p-4">
-              
+            <a className="sm:w-1/2 w-10 p-4">
+              <div className="flex flex-col w-full mb-20">
+                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
+                <p>Pronouns: {project.pronouns}</p>
+                <p>Likes: {project.likes}</p>
+                <p>Dislikes: {project.dislikes}</p>
+                <img src={project.sprite} style={{ width: "500px", height: "500px" }}/>
+              </div>
             </a>
           ))}
         </div>
 
         {/* This is the old code to display projects. Consisted of hoverable images that reveal a title and description */}
         {/* We're gonna use and modify this section to display characters now instead of projects */}
-        {/* It gets the data from data.js */}
+        {/* It gets the data from data.js and fills in the below code as many times as there are objects in projects */}
 
         {/* <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
