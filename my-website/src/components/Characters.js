@@ -16,14 +16,18 @@ export default function Characters() {
     
         <div>
           {projects.map((project) => (
-            <a className="sm:w-1/2 w-10 p-4">
-              <div className="flex flex-col w-full mb-20">
-                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
-                <p>Pronouns: {project.pronouns}</p>
-                <p>Likes: {project.likes}</p>
-                <p>Dislikes: {project.dislikes}</p>
-                <img src={project.sprite} style={{ width: "500px", height: "500px" }}/>
-              </div>
+            <a>
+                <div className="flex p-4 h-full items-center" style={{ fontSize: "20px" }}>
+                  <div className="flex-col">
+                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
+                    <p>Pronouns: {project.pronouns}</p>
+                    <p>Likes: {project.likes}</p>
+                    <p>Dislikes: {project.dislikes}</p>
+                  </div>
+                  <div className="flex flex-col mb-20">
+                    <img src={project.sprite} style={{ width: "500px", height: "500px" }} />
+                </div>
+                </div> 
             </a>
           ))}
         </div>
