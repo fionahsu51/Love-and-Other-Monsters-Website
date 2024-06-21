@@ -6,61 +6,30 @@ import { projects } from "../data";
 export default function Characters() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <UserIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+      <center className="px-5 py-10">
+        <UserIcon className="mx-auto inline-block w-10 mb-4" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
             Characters
           </h1>
-        </div>
-    
-        <div>
-          {projects.map((project) => (
+      </center>
+      <div className="container px-5 mx-auto flex sm:flex-nowrap flex-wrap mr-10">
+        <div className="flex flex-col">
+        {projects.map((project) => (
             <a>
-                <div className="flex p-4 h-full items-center" style={{ fontSize: "20px" }}>
-                  <div className="flex-col">
-                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
-                    <p>Pronouns: {project.pronouns}</p>
-                    <p>Likes: {project.likes}</p>
-                    <p>Dislikes: {project.dislikes}</p>
-                  </div>
-                  <div className="flex flex-col mb-20">
-                    <img src={project.sprite} style={{ width: "500px", height: "500px" }} />
+              <div className="flex p-4 h-full items-center" style={{ fontSize: "20px" }}>
+                <div style={{ width: "600px" }}>
+                  <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
+                  <p>{project.info}</p>
+                  <br></br>
+                  <p>Pronouns: {project.pronouns}</p>
+                  <p>Likes: {project.likes}</p>
+                  <p>Dislikes: {project.dislikes}</p>
                 </div>
-                </div> 
+                  <img src={project.sprite} style={{ width: "500px", height: "500px" }} />
+                </div>  
             </a>
           ))}
         </div>
-
-        {/* This is the old code to display projects. Consisted of hoverable images that reveal a title and description */}
-        {/* We're gonna use and modify this section to display characters now instead of projects */}
-        {/* It gets the data from data.js and fills in the below code as many times as there are objects in projects */}
-
-        {/* <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0"
-                  src={project.image}
-                />
-                <div className="px-42 py-40 z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="z-10 text-sm title-font font-medium text-purple-400 mb-1">
-                    {project.subtitle}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <p className="leading-relaxed">{project.description}</p>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div> */}
       </div>
     </section>
   );

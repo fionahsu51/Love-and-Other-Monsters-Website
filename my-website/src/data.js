@@ -2,20 +2,36 @@ export const projects = [
   {
     name: "Dolores",
     sprite: "./DoloresNeutral.png",
+    painting: "./dolorespride.png",
+    info: "A local candlemaker and Victoria's childhood friend.",
     pronouns: "She/Her",
-    likes: "Candles, Flowers",
-    dislikes: "Bread",
-    painters_note: "Oooh how about this pose? No, this! Wait...I think this is better! Aghhh I can't choose! Do I really have to keep it to one pose?"
+    likes: "Making herbal soaps and candles, flowers, sleeping in",
+    dislikes: "Being abandoned, strict schedules",
+    painters_note: "Oooh, how about this pose? No, this! I can't choose... maybe 4 or 5 paintings will be enough!"
   },
 
   {
     name: "Aveline",
     sprite: "./AvelineNeutral.png",
+    painting: "./dolorespride.png",
+    info: "A mysterious potion maker who lives in a humble abode deep in the woods.",
     pronouns: "TBD",
     likes: "Potions",
     dislikes: "Monster Hunters",
     painters_note: "Oooh how about this pose? No, this! Wait...I think this is better!"
   },
+
+  {
+    name: "Freya",
+    sprite: "./FreyaNeutral.png",
+    painting: "./dolorespride.png",
+    info: "A very respectable, popular noblewoman and monster hunter. Views Victoria as a rival",
+    pronouns: "TBD",
+    likes: "Sword arts",
+    dislikes: "Monsters",
+    painters_note: "Oooh how about this pose? No, this! Wait...I think this is better!"
+  },
+  
 
   // Below is the old data for projects. Leaving it here for reference for now.
   // {
