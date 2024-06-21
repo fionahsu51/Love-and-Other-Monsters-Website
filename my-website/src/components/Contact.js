@@ -12,7 +12,24 @@ export default function Contact() {
             Heart Crossed Studios is an independent game studio, founded in 2023 by UCSC Alumnis during our undergrad studies! Our
             primary goal is developing heartfelt stories and experiences for underrepresented communities, with a focus on the POC and
             LGBTQ+ community. We are currently a team of 7, with comprehensive experience in creative, technical, and marketing fields.
+            <br></br>
+            <br></br>
+            Thank you for your time and interest in our game. If you have any feedback for us, we’d love to hear it!
           </p>
+
+          <div className="mt-5">
+            <a
+              href="https://twitter.com/heartXstudios"
+              className="inline-flex border-0 py-1 focus:outline-none hover:bg-white rounded text-base mt-5 md:mt-5">
+              <img src="./twitter.png" alt="twt" style={{ width: "50px", height: "50px" }}/>
+            </a>
+            <a
+              href="https://www.instagram.com/heartxstudios?igsh=MzRlODBiNWFlZA=="
+              className="inline-flex border-0 py-1 px-3 focus:outline-none hover:bg-white rounded text-base mt-5 md:mt-5">
+              <img src="./instagram.png" alt="ig" style={{ width: "50px", height: "50px" }}/>
+            </a>
+          </div>
+          
 
         </div>
         <form
@@ -22,9 +39,6 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-2 font-medium title-font">
             Contact Us
           </h2>
-          <p style={{ fontSize: "20px" }}>
-            Thank you for your time and interest in our game. If you have any feedback for us, we’d love to hear it!
-          </p>
           <div className="relative mb-4 mt-2">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
