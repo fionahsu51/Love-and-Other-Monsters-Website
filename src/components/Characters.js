@@ -16,7 +16,7 @@ export default function Characters() {
         <div className="flex flex-col">
         {projects.map((project) => (
             <a>
-              <div className="flex p-4 h-full items-center" style={{ fontSize: "20px" }}>
+              <div className="flex p-4 h-full items-center" style={{ fontSize: "25px" }}>
                 <div style={{ width: "600px" }}>
                   <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
                   <p>{project.info}</p>

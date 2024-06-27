@@ -9,7 +9,7 @@ export default function Intro() {
             Love & Other Monsters Tagline
           </h1>
           <br></br>
-          <div style={{ fontSize: "20px" }}>
+          <div style={{ fontSize: "25px" }}>
             <p>
             Upon the death of her father, Victoria Morgan is summoned back to her family’s illustrious mansion in Castelonia,
             in order to claim her inheritance. The bonds she forges with her companions, new and old, will unlock the secrets
