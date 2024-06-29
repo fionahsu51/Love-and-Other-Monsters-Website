@@ -14,7 +14,8 @@ export default function Navbar() {
           <h1 style={{ fontSize: "40px" }}>Love & Other Monsters</h1>
         </div>
         
-        <a
+        <div>
+          <a
           href="https://twitter.com/heartXstudios"
           className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-white rounded text-base mt-4 md:mt-0">
           <img src="./twitter.png" alt="twt" style={{ width: "50px", height: "50px" }}/>
@@ -25,6 +26,8 @@ export default function Navbar() {
           className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-white rounded text-base mt-4 md:mt-0">
           <img src="./instagram.png" alt="ig" style={{ width: "50px", height: "50px" }}/>
         </a>
+        </div>
+        
       </div>
     </div>
   );
