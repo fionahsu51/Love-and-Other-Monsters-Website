@@ -15,7 +15,7 @@ export default function Characters() {
       <div className="container px-5 mx-auto flex sm:flex-nowrap flex-wrap mr-10">
         <div className="flex flex-col">
         {projects.map((project) => (
-            <a>
+            <div>
               <div className="flex p-4 h-full items-center" style={{ fontSize: "25px" }}>
                 <div style={{ width: "600px" }}>
                   <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">{project.name}</h1>
@@ -27,7 +27,7 @@ export default function Characters() {
                 </div>
                   <img src={project.sprite} alt="character sprite" style={{ width: "500px", height: "500px" }} />
                 </div>  
-            </a>
+            </div>
           ))}
         </div>
       </div>

@@ -4,15 +4,15 @@ export default function Navbar() {
   return (
     <div className="bg-gray-400 top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="mb-4 md:mb-0">
+        <div className="mb-4 md:mb-0">
           <a href="#Intro">
             <img src="./hcstudio_logo.png " alt="hclogo" style={{ width: "50px", height: "50px" }} />
           </a>
-        </a>
+        </div>
 
-        <a className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 font-medium text-black">
+        <div className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 font-medium text-black">
           <h1 style={{ fontSize: "40px" }}>Love & Other Monsters</h1>
-        </a>
+        </div>
         
         <a
           href="https://twitter.com/heartXstudios"
