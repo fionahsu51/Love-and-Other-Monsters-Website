@@ -1,18 +1,21 @@
-import React from "react";
+//import logo from './logo.svg';
+import './App.css';
 import Intro from "./components/Intro";
-import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Characters from "./components/Characters";
-import Skills from "./components/Skills";
+import Snippets from "./components/Snippets";
+import Contact from "./components/Contact";
 
-export default function App() {
+function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <div className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <Intro />
       <Characters />
-      <Skills />
+      <Snippets />
       <Contact />
-    </main>
+    </div>
   );
 }
+
+export default App;

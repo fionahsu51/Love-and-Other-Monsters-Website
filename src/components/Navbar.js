@@ -1,9 +1,8 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-400 top-0 z-10">
+    <div className="bg-gray-400 top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="mb-4 md:mb-0">
           <a href="#Intro">
@@ -27,6 +26,6 @@ export default function Navbar() {
           <img src="./instagram.png" alt="ig" style={{ width: "50px", height: "50px" }}/>
         </a>
       </div>
-    </header>
+    </div>
   );
 }
