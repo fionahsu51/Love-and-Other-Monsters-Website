@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  background-image: url("background_wallpaper.png");
 }
+
+html { height: 100%; overflow:auto; }
+body { height: 100%; }
 
 .App-logo {
   height: 40vmin;

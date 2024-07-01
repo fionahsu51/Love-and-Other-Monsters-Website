@@ -10,7 +10,7 @@ export default function Snippets() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Game Snippets
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est.

@@ -6,17 +6,17 @@ export default function Intro() {
       <center className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div>
           <h1 className="text-white" style={{ fontSize: "40px" }}>
-            Love & Other Monsters Tagline
+            Love & Other Monsters
           </h1>
           <br></br>
           <div style={{ fontSize: "25px" }}>
-            <p>
+            <p className="text-white">
             Upon the death of her father, Victoria Medrano is summoned back to her family’s illustrious mansion in Carpathia,
             in order to claim her inheritance. The bonds she forges with her companions, new and old, will unlock the secrets
             hiding within her childhood town.
             </p>
             <br></br>
-            <p>
+            <p className="text-white">
               Encounter three enigmatic women who each have their eye on you.  <br></br>If you captivate their hearts and minds, together
               you can discover the truth of the mysteries hidden within Carpathia.
             </p>
