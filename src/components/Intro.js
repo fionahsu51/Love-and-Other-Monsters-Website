@@ -18,7 +18,7 @@ export default function Intro() {
             <br></br>
             <p>
               Encounter three enigmatic women who each have their eye on you.  <br></br>If you captivate their hearts and minds, together
-              you can discover the truth of the mysteries hidden within Castelonia.
+              you can discover the truth of the mysteries hidden within Carpathia.
             </p>
           </div>
           
