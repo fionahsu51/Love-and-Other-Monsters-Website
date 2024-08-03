@@ -1,12 +1,11 @@
-import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 
 export default function Snippets() {
   return (
     <section id="snippets">
-      <div className="container px-5 py-10 mx-auto">
+      <center><img src="./Divider.png" alt="divider"></img></center>
+      <div className="container px-5 py-5 mx-auto">
         <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Game Snippets
           </h1>

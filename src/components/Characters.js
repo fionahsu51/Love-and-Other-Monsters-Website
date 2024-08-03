@@ -1,4 +1,3 @@
-import { UserIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
 
@@ -7,7 +6,7 @@ export default function Characters() {
   return (
     <section id="projects" className="text-gray-400 body-font">
       <center className="px-5 py-10">
-        <UserIcon className="mx-auto inline-block w-10 mb-4" />
+        <img src="./Divider.png" alt="divider"></img>
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white">
             Characters
           </h1>

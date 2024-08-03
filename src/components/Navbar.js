@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="bg-fuchsia-950 top-0 z-10">
+    <div className="bg-fuchsia-950 top-0 z-10 w-screen" style={{position:"fixed"}}>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="mb-4 md:mb-0">
           <a href="#Intro">
