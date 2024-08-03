@@ -23,7 +23,7 @@ export default function Characters() {
                 <p className="text-amber-950">Dislikes: {project.dislikes}</p>
             </div>
               <div className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-10 w-full md:py-8 mt-8 md:mt-0">
-                <img src={project.sprite} alt="character sprite" style={{ width: "500px", height: "500px" }} />
+                <img src={project.sprite} alt="character sprite" style={{ 'max-width': "500px", 'max-height': "500px" }} />
               </div>  
           </div>
         ))} 
