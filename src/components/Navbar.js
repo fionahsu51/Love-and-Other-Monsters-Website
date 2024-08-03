@@ -11,7 +11,7 @@ export default function Navbar() {
         </div>
 
         <div className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 font-medium text-white">
-          <h1 style={{ fontSize: "40px" }}>Love & Other Monsters</h1>
+          <h1 style={{ fontSize: "40px" }}>Heart Crossed Studios</h1>
         </div>
         
         <div>
