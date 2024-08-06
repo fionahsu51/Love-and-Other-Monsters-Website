@@ -7,7 +7,8 @@ module.exports = {
       backgroundImage: {
         'wallpaper': "url('../public/background_wallpaper.png')",
         'parchment': "url('../public/parchment.png')",
-        'upbutton': "url('../public/up_button.png')"
+        'upbutton': "url('../public/up_button.png')",
+        'navbarcurtain' : "url('../public/NavBarTile.png')"
       },
       fontFamily:{
         sans: ["SortsMillGoudy", ...defaultTheme.fontFamily.sans],

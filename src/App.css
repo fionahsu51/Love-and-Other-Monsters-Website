@@ -22,6 +22,10 @@
   .col-12 {width: 100%;}
 }
 
+@media only screen and (max-width: 768px) {
+  div.navbartitle {display:none}
+}
+
 html { height: 100%; overflow:auto; }
 body { height: 100%; }
 
