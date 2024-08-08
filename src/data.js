@@ -1,7 +1,7 @@
 export const projects = [
     {
       name: "Dolores",
-      sprite: "./DoloresNeutral.png",
+      sprite: "./dolorespride.png",
       painting: "./dolorespride.png",
       info: "A local candlemaker and Victoria's childhood friend.",
       pronouns: "She/Her",
@@ -12,7 +12,7 @@ export const projects = [
   
     {
       name: "Aveline",
-      sprite: "./AvelineNeutral.png",
+      sprite: "./avelinepride.png",
       painting: "./dolorespride.png",
       info: "A mysterious potion maker who lives in a humble abode deep in the woods.",
       pronouns: "TBD",
