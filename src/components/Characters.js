@@ -14,8 +14,8 @@ export default function Characters() {
         {projects.map((project) => (
           <div className="container my-10 px-5 mx-auto flex sm:flex-nowrap flex-wrap mr-auto bg-transparent bg-cover">
             <div className="lg:w-1/2 md:w-1/2 h-1/2 flex flex-col md:ml-10 w-full md:py-8 sm:mt-10 md:mt-40 lg:mt-40 bg-placard" style={{"background-size":"100% 100%", fontSize: "25px" }}>
-                <p className="text-center pt-30 md:pt-10 text-amber-950">{project.name}</p>
-                <p className="text-left pt-5 pb-20 px-20 text-amber-950">{project.info}</p>
+                <p className="text-center pt-20 md:pt-10 text-black">{project.name}</p>
+                <p className="text-left pt-5 pb-20 px-20 text-black">{project.info}</p>
                 <br></br>
             </div>
               <div className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-10 w-full md:py-8 mt-8 md:mt-0">
