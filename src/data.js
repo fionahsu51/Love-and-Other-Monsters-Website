@@ -1,35 +1,26 @@
 export const projects = [
     {
-      name: "Dolores",
-      sprite: "./dolorespride.png",
-      painting: "./dolorespride.png",
-      info: "A local candlemaker and Victoria's childhood friend.",
-      pronouns: "She/Her",
-      likes: "Making herbal soaps and candles, flowers, sleeping in",
-      dislikes: "Being abandoned, strict schedules",
-      painters_note: "Oooh, how about this pose? No, this! I can't choose... maybe 4 or 5 paintings will be enough!"
+      name: "Victoria Medrano",
+      sprite: "./victoriaportrait.png",
+      info: "As studious and clever as she may be, Victoria can't help but feel in over her head. With everyone looking to her to lead after her father's sudden passing, Victoria finds countless twisting paths ahead.",
+    },
+  
+    {
+      name: "Dolores Vivaz",
+      sprite: "./doloresportrait.png",
+      info: "Victoria's spirited childhood friend. Orphaned in her early teens, she runs the local candle shop and maintains Carpathia's streetlamps.",
+    },
+
+    {
+      name: "Freya Hawthorne",
+      sprite: "./freyaportrait.png",
+      info: "The heir to the Medranos' rival family, the Hawthornes. Her strength and skill have captured the heart of the town.",
     },
   
     {
       name: "Aveline",
-      sprite: "./avelinepride.png",
-      painting: "./dolorespride.png",
-      info: "A mysterious potion maker who lives in a humble abode deep in the woods.",
-      pronouns: "TBD",
-      likes: "Potions",
-      dislikes: "Monster Hunters",
-      painters_note: "Oooh how about this pose? No, this! Wait...I think this is better!"
-    },
-  
-    {
-      name: "Freya",
-      sprite: "./FreyaNeutral.png",
-      painting: "./dolorespride.png",
-      info: "A very respectable, popular noblewoman and monster hunter. Views Victoria as a rival",
-      pronouns: "TBD",
-      likes: "Sword arts",
-      dislikes: "Monsters",
-      painters_note: "Oooh how about this pose? No, this! Wait...I think this is better!"
+      sprite: "./avelineportrait.png",
+      info: "An enigma who keeps to herself. Little is known about her, but the latest rumor is that the shack next to the abandoned church is occupied again.",
     },
     
   

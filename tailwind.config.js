@@ -8,7 +8,8 @@ module.exports = {
         'wallpaper': "url('../public/background_wallpaper.png')",
         'parchment': "url('../public/parchment.png')",
         'upbutton': "url('../public/up_button.png')",
-        'navbarcurtain' : "url('../public/NavBarTile.png')"
+        'navbarcurtain' : "url('../public/NavBarTile.png')",
+        'placard' : "url('../public/placard.png')"
       },
       fontFamily:{
         sans: ["SortsMillGoudy", ...defaultTheme.fontFamily.sans],

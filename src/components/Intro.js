@@ -18,6 +18,14 @@ export default function Intro() {
               Encounter three enigmatic women who each have their eye on you.  <br></br>If you captivate their hearts and minds, together
               you can discover the truth of the mysteries hidden within Carpathia.
             </p>
+
+            <br></br>
+            <p className="text-white">
+              Love & Other Monsters is a 2D-action dating sim inspired by Castlevania,  
+              Monster Prom, and Fire Emblem. Take control of Victoria and her three love interests,
+              exploring levels, fighting bosses and managing resources. Your choices will determine the course of the story, and which
+              characters will be available to you. Choose wisely and build bonds with your companions to uncover the truth about Carpathia.
+            </p>
           </div>
           
 

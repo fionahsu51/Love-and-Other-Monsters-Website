@@ -12,17 +12,14 @@ export default function Characters() {
           </h1>
       </center>
         {projects.map((project) => (
-          <div className="container my-10 px-5 mx-auto flex sm:flex-nowrap flex-wrap mr-auto bg-parchment bg-cover">
-            <div className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-10 w-full md:py-8 mt-8 md:mt-0" style={{ fontSize: "25px" }}>
-                <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-amber-950">{project.name}</h1>
-                <p className="text-amber-950">{project.info}</p>
+          <div className="container my-10 px-5 mx-auto flex sm:flex-nowrap flex-wrap mr-auto bg-transparent bg-cover">
+            <div className="lg:w-1/2 md:w-1/2 h-1/2 flex flex-col md:ml-10 w-full md:py-8 sm:mt-10 md:mt-40 lg:mt-40 bg-placard" style={{"background-size":"100% 100%", fontSize: "25px" }}>
+                <p className="text-center pt-20 md:pt-10 text-amber-950">{project.name}</p>
+                <p className="text-left pt-5 pb-20 px-20 text-amber-950">{project.info}</p>
                 <br></br>
-                <p className="text-amber-950">Pronouns: {project.pronouns}</p>
-                <p className="text-amber-950">Likes: {project.likes}</p>
-                <p className="text-amber-950">Dislikes: {project.dislikes}</p>
             </div>
               <div className="lg:w-1/2 md:w-1/2 flex flex-col md:ml-10 w-full md:py-8 mt-8 md:mt-0">
-                <img src={project.sprite} alt="character sprite" style={{ 'max-width': "350px", 'max-height': "500px" }} />
+                <img src={project.sprite} alt="character sprite" style={{ 'max-width': "455px", 'max-height': "550px" }} />
               </div>  
           </div>
         ))} 

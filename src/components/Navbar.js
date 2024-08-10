@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-navbarcurtain bg-contain top-0 z-10 w-screen" style={{'max-height':"60px",position:"fixed"}}>
+    <div className="navbar top-0 z-10 w-screen" style={{'max-height':"60px",position:"fixed", 'background-color':"#9c2f44"}}>
       <div className="container navcols mx-auto flex flex-wrap md:flex-row items-center">
         <div className="mb-4 md:mb-0">
           <a href="#Intro" 

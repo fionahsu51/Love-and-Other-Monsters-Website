@@ -5,17 +5,9 @@ export default function Snippets() {
     <section id="snippets">
       <center><img src="./Divider.png" alt="divider"></img></center>
       <div className="container px-5 py-5 mx-auto">
-        <div className="text-center mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Game Snippets
-          </h1>
-          <p className="text-white leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
-          </p>
-        </div>
-        
+        <img class="mx-auto mb-10" alt="screenshot of dolores." src="./dolores_screenshot.png" style={{"max-width":"80%", "max-height":"540px"}}></img>
+        <img class="mx-auto mb-10" alt="screenshot of freya." src="./freya_screenshot.png" style={{"max-width":"80%", "max-height":"540px"}}></img>
+        <img class="mx-auto" alt="screenshot of aveline." src="./aveline_screenshot.png" style={{"max-width":"80%", "max-height":"540px"}}></img>
         {/* <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
