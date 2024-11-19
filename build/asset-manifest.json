@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.7eb601f0.css",
-    "main.js": "/static/js/main.95bca8cc.js",
+    "main.css": "/static/css/main.50e3954a.css",
+    "main.js": "/static/js/main.9dfc7f82.js",
     "static/js/453.b81bd31d.chunk.js": "/static/js/453.b81bd31d.chunk.js",
-    "static/media/parchment.png": "/static/media/parchment.18546e30252f5056322e.png",
-    "static/media/background_wallpaper.png": "/static/media/background_wallpaper.67c09d847ce793277187.png",
+    "static/media/background_wallpaper.png": "/static/media/background_wallpaper.c21664f86e9d17688f3b.png",
+    "static/media/placard.png": "/static/media/placard.e3028c21949442a589fe.png",
     "static/media/SortsMillGoudy-Regular.ttf": "/static/media/SortsMillGoudy-Regular.63480b60449721659684.ttf",
     "index.html": "/index.html",
-    "main.7eb601f0.css.map": "/static/css/main.7eb601f0.css.map",
-    "main.95bca8cc.js.map": "/static/js/main.95bca8cc.js.map",
+    "main.50e3954a.css.map": "/static/css/main.50e3954a.css.map",
+    "main.9dfc7f82.js.map": "/static/js/main.9dfc7f82.js.map",
     "453.b81bd31d.chunk.js.map": "/static/js/453.b81bd31d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb601f0.css",
-    "static/js/main.95bca8cc.js"
+    "static/css/main.50e3954a.css",
+    "static/js/main.9dfc7f82.js"
   ]
 }
