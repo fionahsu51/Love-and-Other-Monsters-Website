@@ -1,6 +1,6 @@
 export const projects = [
     {
-      name: "Victoria Medrano",
+      name: "Victoria Metztli",
       sprite: "./victoriaportrait.png",
       info: "As studious and clever as she may be, Victoria can't help but feel in over her head. With everyone looking to her to lead after her father's sudden passing, Victoria finds countless twisting paths ahead.",
     },
@@ -14,7 +14,7 @@ export const projects = [
     {
       name: "Freya Hawthorne",
       sprite: "./freyaportrait.png",
-      info: "The heir to the Medranos' rival family, the Hawthornes. Her strength and skill have captured the heart of the town.",
+      info: "The heir to the Metztlis' rival family, the Hawthornes. Her strength and skill have captured the heart of the town.",
     },
   
     {

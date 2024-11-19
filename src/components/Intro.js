@@ -9,7 +9,7 @@ export default function Intro() {
           
           <div style={{ fontSize: "25px" }}>
             <p className="text-white">
-            Upon the death of her father, Victoria Medrano is summoned back to her family’s illustrious mansion in Carpathia,
+            Upon the death of her father, Victoria Metztli is summoned back to her family’s illustrious mansion in Carpathia,
             in order to claim her inheritance. The bonds she forges with her companions, new and old, will unlock the secrets
             hiding within her childhood town.
             </p>
